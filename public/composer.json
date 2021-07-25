@@ -1,0 +1,24 @@
+{
+    "name": "user/public",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vinicius Cortez",
+            "email": "cortezvinicius881@gmail.com"
+        }
+    ],
+    "scripts": {
+        "get env": "php -f vendor/conf.php"
+    },
+    "require": {
+        "slim/slim": "3.0",
+        "tuupola/cors-middleware": "^1.2",
+        "webonyx/graphql-php": "^14.9",
+        "vlucas/phpdotenv": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "vcinsidedigital\\": "vendor\\vcid\\php-classes\\src"
+        }
+    }
+}

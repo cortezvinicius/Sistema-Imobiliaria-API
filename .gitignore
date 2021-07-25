@@ -1,0 +1,8 @@
+# Miscellaneous
+.env
+composer.lock
+
+/public/vendor/*
+!/public/vendor/vcid/
+!/public/vendor/conf.php
+
